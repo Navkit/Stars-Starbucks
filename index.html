@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Star's Starbucks</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <a href="#"><img src="./images/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="./connect/">Connect</a></li>
+        </ul>
+      </header>
+      <div class="circle"></div>
+      <div class="description">
+        <div class="textbox">
+          <h2>It's not just Coffee <br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+            optio, fugit unde, quisquam magni impedit ducimus quia non sint, et
+            velit consequuntur fugiat repellat possimus ipsam! Ex, nulla cumque!
+            Voluptatibus ullam doloremque autem consequuntur nisi hic debitis,
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgbox">
+          <img src="./images/img1.png" alt="hi" class="starbucks" />
+        </div>
+      </div>
+      <ul class="thumbnail">
+        <li id="t1">
+          <img
+            src="./images/thumb1.png"
+            alt="pista"
+            onclick="imgSlider('./images/img1.png');
+            changeCircleColor('#107143')"
+          />
+        </li>
+        <li id="t2">
+          <img
+            src="./images/thumb2.png"
+            alt="orange"
+            onclick="imgSlider('./images/img2.png');
+            changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li id="t3">
+          <img
+            src="./images/thumb3.png"
+            onclick="imgSlider('./images/img3.png');
+            changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
+      <ul class="socialMedia">
+        <li>
+          <a href=""><img src="./images/facebook.png" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./images/instagram.png" alt="instagram" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./images/twitter.png" alt="twitter" /></a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript" src="./script.js">
+     
+    </script>
+  </body>
+</html>

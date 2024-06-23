@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #d4b7b7;
+    border-radius: 20px;
+    border: 2 px hidden;
+    box-shadow: 5px 5px 50px rgba(185, 134, 134, 50.81);
+    padding: 30px;
+    width: 300px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input, .form-container textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #eac5c5;
+    border-left: 2px solid #e82929 ;
+    border-radius: 5px;
+    color: #020625;
+    
+}
+.form-container input:hover{
+    background-color: #dec6c6;
+    border: 2px solid rgb(245, 104, 104);
+    border-left: 2px solid #1f7fd8 ;
+    color: #ff0000;
+
+}
+.form-container input:focus {
+    border-left: 6px  solid rgb(197, 9, 22);
+    border-bottom:3px solid rgb(8, 5, 5) ;
+    background-color: #dcc8cc;
+    color: #300404;
+    font-size: 1.2em;
+}
+.form-container textarea:focus {
+    border-left: 6px dotted rgb(108, 41, 46);
+    border-bottom:1px solid rgb(17, 3, 3) ;
+    background-color: #110b83;
+    color: #442e2e;
+    font-size: 1.2em;
+}
+
+
+.sign-up-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.sign-up-btn:hover {
+    background-color: #218838;
+}
+
+.or-divider {
+    text-align: center;
+    margin: 10px 0;
+    color: #666;
+}
+
+.google-sign-up-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.google-sign-up-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.google-sign-up-btn:hover {
+    background-color: #f8f8f8;
+}
+
+.form-container p {
+    text-align: center;
+    color: #ed0707;
+}
+
+.form-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}
